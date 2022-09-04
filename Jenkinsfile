@@ -3,7 +3,7 @@ pipeline{
   stages{
   	stage('version-control'){
   		steps{
-  		    checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: '301215b5-9b0e-43aa-9ebf-69111a44e065', url: 'https://github.com/Ntizeah/team3-paralle.git']]])
+  		    checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: '301215b5-9b0e-43aa-9ebf-69111a44e065', url: 'https://github.com/Ntizeah/https://github.com/Ntizeah/multibranch-demo.git']]])
 
   		}
   	}
